@@ -15,3 +15,6 @@ Repo created to try out the new network filter from [envoyproxy](https://github.
     ```
 3. Navigate to [http://localhost:9901/stats](http://localhost:9901/stats) to see the counts.
    > currently only `postgres.postgres.sessions` and `postgres.postgres.sessions_encrypted` get increased :/
+
+Ref.: 
+- [Envoy Docs - Postgres proxy](https://www.envoyproxy.io/docs/envoy/latest/configuration/listeners/network_filters/postgres_proxy_filter)
